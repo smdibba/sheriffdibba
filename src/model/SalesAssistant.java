@@ -7,7 +7,7 @@ public class SalesAssistant implements Employee {
     public SalesAssistant(int id, String username, int password) {
         this.id=id;
         this.username=username;
-        this.password=password;
+        this.password = 0;
     }
 
     public String getUsername() {
